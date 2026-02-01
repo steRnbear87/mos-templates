@@ -1,0 +1,46 @@
+{
+    "name": "Termix",
+    "repo": "ghcr.io/lukegus/termix:latest",
+    "registry": "https://ghcr.io/lukegus/termix",
+    "network": "bridge",
+    "custom_ip": null,
+    "default_shell": "bash",
+    "privileged": false,
+    "extra_parameters": "--restart unless-stopped",
+    "post_parameters": null,
+    "cpu_set": null,
+    "web_ui_url": "http://[IP]:[PORT:8085]/",
+    "icon": "https://raw.githubusercontent.com/lukegus/termix/main/docs/logo.png",
+    "category": "Terminal:Web Terminal:Management",
+    "project": "https://github.com/lukegus/termix",
+    "support": "https://github.com/lukegus/termix/issues",
+    "description": "Termix is a web-based terminal emulator that allows you to access a shell environment in your browser, useful for managing servers or containers remotely.",
+    "donate": "https://paypal.me/ibracorp",
+    "requires": null,
+    "paths": [
+        {
+            "name": "Termix Data Volume",
+            "host": "/mnt/cache/termix-data",
+            "container": "/app/data"
+        }
+    ],
+    "ports": [
+        {
+            "name": "Web UI",
+            "protocol": "tcp",
+            "host": "8085",
+            "container": "8080"
+        }
+    ],
+    "variables": [
+        {
+            "name": "Web UI Port",
+            "key": "PORT",
+            "value": "8080",
+            "mask": false
+        }
+    ],
+    "devices": [],
+    "labels": [],
+    "gpus": []
+}

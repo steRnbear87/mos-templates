@@ -15,7 +15,7 @@
     "project": "https://github.com/javi11/altmount",
     "support": "https://github.com/javi11/altmount/issues",
     "description": "Altmount is a FUSE-based tool for mounting and exposing remote storage providers inside Docker containers, useful for streaming and media workflows.",
-    "donate": null,
+    "donate": "https://paypal.me/ibracorp",
     "requires": null,
     "paths": [
         {
