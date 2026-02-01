@@ -1,0 +1,69 @@
+{
+  "name": "Wiki.js",
+  "repo": "lscr.io/linuxserver/wikijs:latest",
+  "registry": "https://hub.docker.com/r/linuxserver/wikijs",
+  "network": "bridge",
+  "custom_ip": null,
+  "default_shell": "bash",
+  "privileged": false,
+  "extra_parameters": "--restart unless-stopped",
+  "post_parameters": null,
+  "cpu_set": null,
+  "web_ui_url": "http://[IP]:[PORT:3005]/",
+  "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/wiki-js.png",
+  "category": "Wiki:Knowledge Base:Documentation",
+  "project": "https://github.com/Requarks/wiki",
+  "support": "https://github.com/Requarks/wiki/issues",
+  "description": "Wiki.js is a modern, powerful, and extensible wiki application built on Node.js, supporting multiple database backends and offering an elegant web interface for collaborative documentation.",
+  "donate": "https://paypal.me/ibracorp",
+  "requires": null,
+  "paths": [
+    {
+      "name": "Wiki.js Config",
+      "host": "/mnt/cache/wikijs/config",
+      "container": "/config"
+    },
+    {
+      "name": "Wiki.js Data",
+      "host": "/mnt/cache/wikijs/data",
+      "container": "/data"
+    }
+  ],
+  "ports": [
+    {
+      "name": "Web UI",
+      "protocol": "tcp",
+      "host": "3005",
+      "container": "3000"
+    }
+  ],
+  "variables": [
+    {
+      "name": "User ID",
+      "key": "UID",
+      "value": "1000",
+      "mask": false
+    },
+    {
+      "name": "Group ID",
+      "key": "GID",
+      "value": "1000",
+      "mask": false
+    },
+    {
+      "name": "Timezone",
+      "key": "TZ",
+      "value": "Etc/UTC",
+      "mask": false
+    },
+    {
+      "name": "Database Type",
+      "key": "DB_TYPE",
+      "value": "sqlite",
+      "mask": false
+    }
+  ],
+  "devices": [],
+  "labels": [],
+  "gpus": []
+}
