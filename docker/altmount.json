@@ -10,7 +10,7 @@
     "post_parameters": null,
     "cpu_set": null,
     "web_ui_url": "http://[IP]:[PORT:8080]/",
-    "icon": "https://github.com/javi11/altmount/blob/main/docs/static/img/logo.png",
+    "icon": "https://raw.githubusercontent.com/javi11/altmount/refs/heads/main/docs/static/img/logo.png",
     "category": "Storage:Mount Filesystem:Fuse Media",
     "project": "https://github.com/javi11/altmount",
     "support": "https://github.com/javi11/altmount/issues",
