@@ -1,7 +1,7 @@
 {
     "name": "Altmount",
     "repo": "ghcr.io/javi11/altmount:latest",
-    "registry": "https://ghcr.io/javi11/altmount",
+    "registry": "https://github.com/javi11/altmount",
     "network": "bridge",
     "custom_ip": null,
     "default_shell": "bash",
