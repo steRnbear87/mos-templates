@@ -10,7 +10,7 @@
     "post_parameters": null,
     "cpu_set": null,
     "web_ui_url": "http://[IP]:[PORT:3005]/",
-    "icon": "https://raw.githubusercontent.com/connorgallopo/tracearr/main/apps/web/public/favicon.ico",
+    "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/svg/tracearr.svg",
     "category": "MediaServer:Monitoring Observability",
     "project": "https://github.com/connorgallopo/tracearr",
     "support": "https://github.com/connorgallopo/tracearr/issues",

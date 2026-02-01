@@ -10,7 +10,7 @@
     "post_parameters": null,
     "cpu_set": null,
     "web_ui_url": "http://[IP]:[PORT:8085]/",
-    "icon": "https://raw.githubusercontent.com/lukegus/termix/main/docs/logo.png",
+    "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/termix.png",
     "category": "Terminal:Web Terminal:Management",
     "project": "https://github.com/lukegus/termix",
     "support": "https://github.com/lukegus/termix/issues",

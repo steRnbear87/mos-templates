@@ -10,7 +10,7 @@
     "post_parameters": null,
     "cpu_set": null,
     "web_ui_url": "http://[IP]:[PORT:7171]/",
-    "icon": "https://raw.githubusercontent.com/agregarr/agregarr/main/docs/logo.png",
+    "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/svg/agregarr.svg",
     "category": "MediaServer:Management Automation",
     "project": "https://github.com/agregarr/agregarr",
     "support": "https://github.com/agregarr/agregarr/issues",

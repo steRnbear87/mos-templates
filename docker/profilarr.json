@@ -10,7 +10,7 @@
     "post_parameters": null,
     "cpu_set": null,
     "web_ui_url": "http://[IP]:[PORT:6868]/",
-    "icon": "https://raw.githubusercontent.com/santiagosayshey/profilarr/main/docs/logo.png",
+    "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/profilarr.png",
     "category": "MediaServer:Management Automation",
     "project": "https://github.com/santiagosayshey/profilarr",
     "support": "https://github.com/santiagosayshey/profilarr/issues",
